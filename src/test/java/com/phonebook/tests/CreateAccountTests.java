@@ -1,5 +1,6 @@
 package com.phonebook.tests;
 
+import com.phonebook.data.UserData;
 import com.phonebook.models.User;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -22,7 +23,7 @@ public class CreateAccountTests extends TestBase{
         //click on Login Link
         app.getUser().clickOnLoginLink();
         //enter Email to email field
-        app.getUser().fillregistrationLoginForm(new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
+        app.getUser().fillregistrationLoginForm(new User().setEmail(UserData.EMAIL).setPassword(UserData.PASSWORD));
         //click on Registration button
         app.getUser().clickOnRegistrationButton();
         //verify SignOut buttton is displayed
@@ -34,7 +35,7 @@ public class CreateAccountTests extends TestBase{
         //click on Login Link
         app.getUser().clickOnLoginLink();
         //enter Email to email field
-        app.getUser().fillregistrationLoginForm(new User().setEmail("noa@gmail.com").setPassword("Nnoa12345$"));
+        app.getUser().fillregistrationLoginForm(new User().setEmail(UserData.EMAIL).setPassword(UserData.PASSWORD));
         //click on Registration button
         app.getUser().clickOnRegistrationButton();
         //verify Alert is displayed
