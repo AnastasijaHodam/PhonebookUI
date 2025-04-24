@@ -10,7 +10,6 @@ public class ApplicationManager {
 
     String browser;
     WebDriver driver;
-
     UserHelper user;
     ContactHelper contact;
     HomePageHelper home;
@@ -18,7 +17,6 @@ public class ApplicationManager {
     public ApplicationManager(String browser) {
         this.browser = browser;
     }
-
     public void init() {
         if(browser.equalsIgnoreCase("chrome")) {
             driver = new ChromeDriver();
@@ -38,11 +36,9 @@ public class ApplicationManager {
     public void stop() {
         driver.quit();
     }
-
     public UserHelper getUser() {
         return user;
     }
-
     public ContactHelper getContact() {
         return contact;
     }

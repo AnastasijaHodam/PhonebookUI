@@ -25,7 +25,6 @@ public class AddContactTests extends TestBase {
         if(!app.getUser().isLoginLinkPresent()){
             app.getUser().clickOnSignOutButton();
         }
-
         //click on Login Link
         app.getUser().clickOnLoginLink();
         //enter Email to email field
@@ -33,6 +32,7 @@ public class AddContactTests extends TestBase {
         //click LoginButton
         app.getUser().clickOnLoginButton();
     }
+
     @Test
     public void addContactPositiveTest(){
       //click on Add link
@@ -75,10 +75,8 @@ public class AddContactTests extends TestBase {
         Assert.assertTrue(app.getContact().isContactAdded(ContactData.Name));
     }
 
-
     @AfterMethod
     public void postCondition(){
         app.getContact().deleteContact();
     }
-
 }
