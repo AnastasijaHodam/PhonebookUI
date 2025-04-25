@@ -10,6 +10,8 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
+import java.io.*;
+import java.security.PublicKey;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
@@ -52,9 +54,9 @@ public class AddContactTests extends TestBase {
     @DataProvider
     public Iterator<Object[]>addNewContact(){
         List<Object[]> list=new ArrayList<>();
-        list.add(new Object[]{"Oliver", "Twist", "01234567890", "Twist@gmail.com", "Rishon", "qa"});
-        list.add(new Object[]{"Oliver", "Twist", "012345678901", "Twist@gmail.com", "Rishon", "qa"});
-        list.add(new Object[]{"Oliver", "Twist", "01234567890123", "Twist@gmail.com", "Rishon", "qa"});
+        list.add(new Object[]{"Oliver", "Twist", "01234567890", "Twister@gmail.com", "Rishon", "qa"});
+        list.add(new Object[]{"Oliver", "Twist", "012345678901", "Twisa@gmail.com", "Rishon", "qa"});
+        list.add(new Object[]{"Oliver", "Twist", "01234567890123", "Twis@gmail.com", "Rishon", "qa"});
         return list.iterator();
     }
 
@@ -72,7 +74,34 @@ public class AddContactTests extends TestBase {
                 .setDescripton(description));
         //click on save button
         app.getContact().clickOnSaveButton();
-        Assert.assertTrue(app.getContact().isContactAdded(ContactData.Name));
+        Assert.assertTrue(app.getContact().isContactAdded(name));
+    }
+    @DataProvider
+    public Iterator<Object[]>addNewContactWithCsv() throws IOException {
+        List<Object[]>list=new ArrayList<>();
+        BufferedReader reader=new BufferedReader(new FileReader(new File("src/test/resources/contact.csv")));
+
+        String line = reader.readLine();
+        while (line!=null) {
+            String[] split = line.split(",");
+
+            list.add(new Object[]{new Contact().setName(split[0])
+                    .setLastname(split[1]).setPhone(split[2]).setEmail(split[3])
+                    .setAddress(split[4]).setDescripton(split[5])});
+            line = reader.readLine();
+        }
+        return list.iterator();
+    }
+
+    @Test(dataProvider = "addNewContactWithCsv")
+    public void addContactPositiveFromDataProviderWithCsvFileTest(Contact contact){
+        //click on Add link
+        app.getContact().clickOnAddLink();
+        //enter name
+        app.getContact().fillContactForm(contact);
+        //click on save button
+        app.getContact().clickOnSaveButton();
+        Assert.assertTrue(app.getContact().isContactAdded(contact.getName()));
     }
 
     @AfterMethod

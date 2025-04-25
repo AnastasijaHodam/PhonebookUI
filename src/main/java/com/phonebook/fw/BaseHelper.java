@@ -31,6 +31,10 @@ public class BaseHelper {
     public void click(By locator) {
         driver.findElement(locator).click();
     }
+    public void waitForElement(By locator) {
+        new WebDriverWait(driver, Duration.ofSeconds(10))
+                .until(ExpectedConditions.visibilityOfElementLocated(locator));
+    }
 
     public boolean isAlertDisplayed() {
         Alert alert = new WebDriverWait(driver, Duration.ofSeconds(20)).until(ExpectedConditions.alertIsPresent());
@@ -60,4 +64,5 @@ public class BaseHelper {
         }
         return screenshot.getAbsolutePath();
     }
+
 }
