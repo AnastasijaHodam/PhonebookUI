@@ -17,6 +17,7 @@ public class LoginTests extends TestBase{
 
     @Test
     public void loginPositiveTest(){
+        logger.info("Login with data-->"+ UserData.EMAIL+"****************************"+UserData.PASSWORD);
         //click on Login Link
         app.getUser().clickOnLoginLink();
         //enter Email to email field
