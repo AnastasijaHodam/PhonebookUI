@@ -37,6 +37,7 @@ task qa(type: Test) {
         }else if (suite3) {
             suites('src/test/resources/negative.xml')
         }
+
     }
     if (project.hasProperty('browser')) {
         systemProperty 'browser', "${browser}"
