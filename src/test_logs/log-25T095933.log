@@ -1,0 +1,15 @@
+09:59:34.314 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\anast\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+09:59:35.886 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest
+09:59:38.434 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@700fb871]
+09:59:38.435 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+09:59:38.435 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+09:59:38.437 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest
+09:59:50.336 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@700fb871]
+09:59:50.336 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+09:59:50.336 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+09:59:50.337 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest
+10:00:02.238 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@700fb871]
+10:00:02.238 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10:00:02.238 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

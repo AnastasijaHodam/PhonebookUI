@@ -1,0 +1,4 @@
+09:57:30.534 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\anast\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+09:57:32.209 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveTest

@@ -1,0 +1,19 @@
+11:45:01.911 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\QA\QA55_PhonebookUI\src\test\resources\smoky.xml
+
+11:45:03.807 [main] INFO  com.phonebook.tests.TestBase -- Start testisHomeComponentPresentTest
+11:45:03.834 [main] INFO  com.phonebook.tests.TestBase -- PASSED: HomePageTest.isHomeComponentPresentTest()[pri:0, instance:com.phonebook.tests.HomePageTest@38145825]
+11:45:03.834 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:45:03.834 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:45:03.837 [main] INFO  com.phonebook.tests.TestBase -- Start testloginPositiveTest
+11:45:04.933 [main] INFO  com.phonebook.tests.TestBase -- PASSED: LoginTests.loginPositiveTest()[pri:0, instance:com.phonebook.tests.LoginTests@2ad48653]
+11:45:04.933 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:45:04.933 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:45:04.933 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveTest
+11:45:16.867 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveTest()[pri:0, instance:com.phonebook.tests.AddContactTests@4c2bb6e0]
+11:45:16.867 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:45:16.867 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:45:16.868 [main] INFO  com.phonebook.tests.TestBase -- Start testdeleteContactTest
+11:45:29.653 [main] INFO  com.phonebook.tests.TestBase -- PASSED: DeleteContactTests.deleteContactTest()[pri:0, instance:com.phonebook.tests.DeleteContactTests@19976a65]
+11:45:29.653 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:45:29.653 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

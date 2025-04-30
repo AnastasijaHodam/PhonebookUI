@@ -1,0 +1,7 @@
+11:33:14.170 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\anast\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:33:15.620 [main] INFO  com.phonebook.tests.TestBase -- Start testloginPositiveTest
+11:33:16.782 [main] INFO  com.phonebook.tests.TestBase -- PASSED: LoginTests.loginPositiveTest()[pri:0, instance:com.phonebook.tests.LoginTests@14dd7b39]
+11:33:16.782 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:33:16.782 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

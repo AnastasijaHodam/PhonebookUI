@@ -1,0 +1,138 @@
+10:28:30.130 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\QA\QA55_PhonebookUI\src\test\resources\smoky.xml
+
+10:28:31.394 [main] INFO  com.phonebook.fw.ApplicationManager -- Test start in Chrome browser
+10:28:32.176 [main] INFO  com.phonebook.fw.ApplicationManager -- Current url-->https://telranedu.web.app/home
+10:28:32.287 [main] INFO  com.phonebook.tests.TestBase -- Start testisHomeComponentPresentTest[]
+10:28:32.290 [main] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: div:nth-child(2)>div>div>h1
+10:28:32.290 [main] INFO  com.phonebook.utils.MyListener -- **********************************
+10:28:32.322 [main] INFO  com.phonebook.utils.MyListener -- List size1
+10:28:32.322 [main] INFO  com.phonebook.utils.MyListener -- *****************************
+10:28:32.324 [main] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: div:nth-child(2)>div>div>h1
+10:28:32.324 [main] INFO  com.phonebook.utils.MyListener -- **********************************
+10:28:32.334 [main] INFO  com.phonebook.utils.MyListener -- List size1
+10:28:32.334 [main] INFO  com.phonebook.utils.MyListener -- *****************************
+10:28:32.338 [main] INFO  com.phonebook.tests.TestBase -- PASSED: HomePageTest.isHomeComponentPresentTest()[pri:0, instance:com.phonebook.tests.HomePageTest@465232e9]
+10:28:32.338 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10:28:32.338 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:28:32.340 [main] INFO  com.phonebook.tests.TestBase -- Start testloginPositiveTest[]
+10:28:32.342 [main] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+10:28:32.342 [main] INFO  com.phonebook.utils.MyListener -- **********************************
+10:28:32.356 [main] INFO  com.phonebook.utils.MyListener -- List size1
+10:28:32.356 [main] INFO  com.phonebook.utils.MyListener -- *****************************
+10:28:32.356 [main] INFO  com.phonebook.tests.TestBase -- Login with data-->noa@gmail.com****************************Nnoa12345$
+10:28:32.356 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+10:28:32.356 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.372 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+10:28:32.372 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.474 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:32.474 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.490 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:32.490 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.577 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:32.577 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.585 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:32.585 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.618 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:32.618 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.626 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:32.626 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:32.671 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: passwor
+10:28:32.671 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:42.719 [main] INFO  com.phonebook.utils.MyListener -- The test has a problem
+10:28:42.719 [main] INFO  com.phonebook.utils.MyListener -- *******************************************************************
+10:28:42.719 [main] INFO  com.phonebook.utils.MyListener -- Method->findElement
+10:28:42.719 [main] INFO  com.phonebook.utils.MyListener -- ********************************************************************
+10:28:42.720 [main] INFO  com.phonebook.utils.MyListener -- TargetException-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='passwor']"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21294c415b8e2dceb62e73e5289418af, findElement {using=name, value=passwor}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\anast\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50142/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21294c415b8e2dceb62e73e5289418af
+10:28:42.720 [main] INFO  com.phonebook.utils.MyListener -- *********************************************************************
+10:28:42.720 [main] INFO  com.phonebook.utils.MyListener -- Object target-->ChromeDriver: chrome on windows (21294c415b8e2dceb62e73e5289418af)
+10:28:42.720 [main] INFO  com.phonebook.utils.MyListener -- **********************************************************************
+10:28:42.992 [main] ERROR com.phonebook.tests.TestBase -- FAILED: loginPositiveTestScreenshot path:C:\QA\QA55_PhonebookUI\screenshots\screen-1745828922978.png
+10:28:42.992 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+10:28:42.994 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+10:28:42.995 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveTest[]
+10:28:42.995 [main] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+10:28:42.995 [main] INFO  com.phonebook.utils.MyListener -- **********************************
+10:28:43.005 [main] INFO  com.phonebook.utils.MyListener -- List size1
+10:28:43.005 [main] INFO  com.phonebook.utils.MyListener -- *****************************
+10:28:43.005 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+10:28:43.005 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.015 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+10:28:43.015 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.090 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:43.090 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.101 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:43.101 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.153 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:43.153 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.162 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:43.162 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.189 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:43.189 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.198 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:43.198 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:43.260 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: passwor
+10:28:43.260 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- The test has a problem
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- *******************************************************************
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- Method->findElement
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- ********************************************************************
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- TargetException-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='passwor']"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21294c415b8e2dceb62e73e5289418af, findElement {using=name, value=passwor}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\anast\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50142/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21294c415b8e2dceb62e73e5289418af
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- *********************************************************************
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- Object target-->ChromeDriver: chrome on windows (21294c415b8e2dceb62e73e5289418af)
+10:28:53.293 [main] INFO  com.phonebook.utils.MyListener -- **********************************************************************
+10:28:53.297 [main] INFO  com.phonebook.tests.TestBase -- Start testdeleteContactTest[]
+10:28:53.297 [main] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+10:28:53.297 [main] INFO  com.phonebook.utils.MyListener -- **********************************
+10:28:53.308 [main] INFO  com.phonebook.utils.MyListener -- List size1
+10:28:53.308 [main] INFO  com.phonebook.utils.MyListener -- *****************************
+10:28:53.309 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+10:28:53.309 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.317 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+10:28:53.317 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.385 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:53.386 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.396 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:53.397 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.458 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:53.458 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.467 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:53.468 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.494 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+10:28:53.495 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.502 [main] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+10:28:53.502 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:28:53.553 [main] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: passwor
+10:28:53.553 [main] INFO  com.phonebook.utils.MyListener -- ********************************
+10:29:03.563 [main] INFO  com.phonebook.utils.MyListener -- The test has a problem
+10:29:03.563 [main] INFO  com.phonebook.utils.MyListener -- *******************************************************************
+10:29:03.563 [main] INFO  com.phonebook.utils.MyListener -- Method->findElement
+10:29:03.563 [main] INFO  com.phonebook.utils.MyListener -- ********************************************************************
+10:29:03.563 [main] INFO  com.phonebook.utils.MyListener -- TargetException-->org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='passwor']"}
+  (Session info: chrome=135.0.7049.96)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.30.0', revision: '509c7f17cc*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [21294c415b8e2dceb62e73e5289418af, findElement {using=name, value=passwor}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.96, chrome: {chromedriverVersion: 134.0.6998.165 (fd886e2cb29..., userDataDir: C:\Users\anast\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50142}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50142/devtoo..., se:cdpVersion: 135.0.7049.96, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 21294c415b8e2dceb62e73e5289418af
+10:29:03.564 [main] INFO  com.phonebook.utils.MyListener -- *********************************************************************
+10:29:03.564 [main] INFO  com.phonebook.utils.MyListener -- Object target-->ChromeDriver: chrome on windows (21294c415b8e2dceb62e73e5289418af)
+10:29:03.564 [main] INFO  com.phonebook.utils.MyListener -- **********************************************************************

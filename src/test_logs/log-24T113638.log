@@ -1,0 +1,7 @@
+11:36:39.016 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\anast\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:36:40.414 [main] INFO  com.phonebook.tests.TestBase -- Start testloginPositiveTest
+11:36:51.073 [main] ERROR com.phonebook.tests.TestBase -- FAILED: loginPositiveTestScreenshot path:C:\QA\QA55_PhonebookUI\screenshots\screen-1745487411051.png
+11:36:51.073 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:36:51.073 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

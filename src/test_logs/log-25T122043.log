@@ -1,0 +1,15 @@
+12:20:44.120 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\anast\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+12:20:46.321 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Oliver, Twist, 01234567890, Twister@gmail.com, Rishon, qa]
+12:20:48.652 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@2254127a]
+12:20:48.652 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+12:20:48.652 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:20:48.652 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Oliver, Twist, 012345678901, Twisa@gmail.com, Rishon, qa]
+12:21:00.353 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@2254127a]
+12:21:00.353 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+12:21:00.353 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+12:21:00.354 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Oliver, Twist, 01234567890123, Twis@gmail.com, Rishon, qa]
+12:21:12.028 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@2254127a]
+12:21:12.028 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+12:21:12.028 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

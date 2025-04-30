@@ -1,0 +1,13 @@
+11:44:02.437 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\QA\QA55_PhonebookUI\src\test\resources\smoky.xml
+
+11:44:03.871 [main] INFO  com.phonebook.tests.TestBase -- Start testisHomeComponentPresentTest
+11:44:03.899 [main] INFO  com.phonebook.tests.TestBase -- PASSED: HomePageTest.isHomeComponentPresentTest()[pri:0, instance:com.phonebook.tests.HomePageTest@5dafbe45]
+11:44:03.899 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:44:03.899 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:44:03.904 [main] INFO  com.phonebook.tests.TestBase -- Start testloginPositiveTest
+11:44:14.542 [main] ERROR com.phonebook.tests.TestBase -- FAILED: loginPositiveTestScreenshot path:C:\QA\QA55_PhonebookUI\screenshots\screen-1745487854524.png
+11:44:14.543 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:44:14.543 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:44:14.545 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveTest
+11:44:24.928 [main] INFO  com.phonebook.tests.TestBase -- Start testdeleteContactTest

@@ -1,0 +1,19 @@
+11:19:10.023 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\anast\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:19:12.342 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest
+11:19:14.732 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2d29b4ee]
+11:19:14.734 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:19:14.734 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:19:14.734 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest
+11:19:26.561 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2d29b4ee]
+11:19:26.561 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:19:26.561 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:19:26.561 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest
+11:19:38.270 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2d29b4ee]
+11:19:38.270 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:19:38.270 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:19:38.270 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest
+11:19:49.969 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2d29b4ee]
+11:19:49.969 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:19:49.969 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

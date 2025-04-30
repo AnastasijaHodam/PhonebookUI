@@ -1,0 +1,19 @@
+11:36:11.672 [main] INFO  org.testng.internal.Utils -- [TestNG] Running:
+  C:\Users\anast\AppData\Local\JetBrains\IdeaIC2024.3\temp-testng-customsuite.xml
+
+11:36:13.129 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Oliver', phone='1234567890'}]
+11:36:15.566 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@6e2aa843]
+11:36:15.566 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:36:15.568 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:36:15.569 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Kris', phone='12345678902'}]
+11:36:27.325 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@6e2aa843]
+11:36:27.325 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:36:27.325 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:36:27.327 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Alex', phone='12345678901232'}]
+11:36:39.042 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@6e2aa843]
+11:36:39.042 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:36:39.042 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:36:39.042 [main] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Olivia', phone='123456789012345'}]
+11:36:50.842 [main] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@6e2aa843]
+11:36:50.842 [main] INFO  com.phonebook.tests.TestBase -- Stop test
+11:36:50.843 [main] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
