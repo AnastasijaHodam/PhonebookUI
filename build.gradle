@@ -12,7 +12,6 @@ repositories {
 dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:4.30.0'
     implementation 'org.testng:testng:7.11.0'
-
     implementation 'ch.qos.logback:logback-classic:1.5.18'
 }
 
