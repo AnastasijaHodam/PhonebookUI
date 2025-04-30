@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.AddContactTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2025-04-30T09:30:36" hostname="ANASTASIJAHODAM" time="88.115">
+  <properties/>
+  <testcase name="addContactPositiveFromDataProviderTest[0](Oliver, Twist, 01234567890, Twister@gmail.com, Rishon, qa)" classname="com.phonebook.tests.AddContactTests" time="2.313"/>
+  <testcase name="addContactPositiveFromDataProviderTest[1](Oliver, Twist, 012345678901, Twisa@gmail.com, Rishon, qa)" classname="com.phonebook.tests.AddContactTests" time="1.714"/>
+  <testcase name="addContactPositiveFromDataProviderTest[2](Oliver, Twist, 01234567890123, Twis@gmail.com, Rishon, qa)" classname="com.phonebook.tests.AddContactTests" time="1.625"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[0](Contact{name='Oliver', phone='1234567890'})" classname="com.phonebook.tests.AddContactTests" time="1.531"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[1](Contact{name='Kris', phone='12345678902'})" classname="com.phonebook.tests.AddContactTests" time="1.427"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[2](Contact{name='Alex', phone='12345678901232'})" classname="com.phonebook.tests.AddContactTests" time="1.593"/>
+  <testcase name="addContactPositiveFromDataProviderWithCsvFileTest[3](Contact{name='Olivia', phone='123456789012345'})" classname="com.phonebook.tests.AddContactTests" time="1.539"/>
+  <testcase name="addContactPositiveTest" classname="com.phonebook.tests.AddContactTests" time="1.517"/>
+  <system-out><![CDATA[11:30:36.071 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Oliver, Twist, 01234567890, Twister@gmail.com, Rishon, qa]
+11:30:36.073 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:30:36.073 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:30:36.123 [Test worker] INFO  com.phonebook.utils.MyListener -- List size1
+11:30:36.123 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:30:36.123 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:30:36.123 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.141 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:30:36.141 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.237 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:30:36.238 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.256 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:30:36.256 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.322 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:30:36.322 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.331 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:30:36.332 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.376 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:30:36.376 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.385 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:30:36.386 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.431 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:30:36.432 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.452 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:30:36.453 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.504 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:30:36.504 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.512 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:30:36.512 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.537 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:30:36.537 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.545 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:30:36.545 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.575 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:30:36.575 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.590 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:30:36.590 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:36.643 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:30:36.644 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.373 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:30:37.373 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.451 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:30:37.451 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.467 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:30:37.467 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.524 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:30:37.524 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.535 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:30:37.535 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.571 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:30:37.571 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.581 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:30:37.581 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.612 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:30:37.612 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.645 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:30:37.645 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.714 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:30:37.714 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.725 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:30:37.726 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.752 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:30:37.752 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.763 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:30:37.763 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.793 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:30:37.793 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.808 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:30:37.808 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.873 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:30:37.873 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.883 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:30:37.883 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.908 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:30:37.908 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.917 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:30:37.917 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.954 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:30:37.954 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:37.970 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:30:37.970 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.039 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:30:38.039 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.047 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:30:38.047 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.074 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:30:38.074 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.085 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:30:38.085 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.132 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:30:38.132 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.148 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:30:38.148 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.206 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:30:38.206 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.216 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:30:38.216 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.242 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:30:38.242 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.250 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:30:38.250 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.278 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:30:38.278 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.296 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:30:38.296 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.348 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:30:38.348 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.357 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:30:38.358 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.382 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:30:38.383 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.392 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:30:38.392 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.417 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:30:38.419 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.431 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:30:38.432 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.491 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:30:38.491 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:30:38.938 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:30:38.938 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:30:38.958 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:30:38.958 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:38.976 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:30:38.976 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:39.039 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:30:39.039 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:39.054 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:30:39.054 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:39.110 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:30:39.111 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:30:39.111 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:30:39.111 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Oliver, Twist, 012345678901, Twisa@gmail.com, Rishon, qa]
+11:30:39.112 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:30:39.112 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:30:49.175 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:30:49.175 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:30:49.176 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Sign Out']
+11:30:49.176 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.191 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+11:30:49.191 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.263 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:30:49.263 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.274 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:30:49.274 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.355 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:30:49.356 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.366 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:30:49.366 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.427 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:30:49.427 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.436 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:30:49.436 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.462 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:30:49.462 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.471 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:30:49.471 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.512 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:30:49.513 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.525 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:30:49.525 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.591 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:30:49.591 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.601 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:30:49.601 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.634 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:30:49.634 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.644 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:30:49.646 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.681 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:30:49.681 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.690 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:30:49.690 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:49.746 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:30:49.746 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.008 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:30:50.008 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.067 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:30:50.067 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.077 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:30:50.077 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.136 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:30:50.136 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.146 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:30:50.146 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.173 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:30:50.173 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.182 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:30:50.182 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.215 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:30:50.216 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.225 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:30:50.225 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.283 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:30:50.283 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.293 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:30:50.293 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.320 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:30:50.320 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.330 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:30:50.330 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.366 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:30:50.366 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.375 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:30:50.375 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.437 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:30:50.439 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.447 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:30:50.449 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.478 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:30:50.478 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.489 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:30:50.489 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.528 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:30:50.528 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.538 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:30:50.538 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.607 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:30:50.607 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.618 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:30:50.618 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.649 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:30:50.649 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.658 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:30:50.659 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.753 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:30:50.753 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.766 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:30:50.766 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.831 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:30:50.831 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.843 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:30:50.843 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.871 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:30:50.871 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.881 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:30:50.881 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.920 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:30:50.920 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.930 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:30:50.930 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.986 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:30:50.986 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:50.997 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:30:50.997 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.023 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:30:51.024 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.034 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:30:51.034 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.063 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:30:51.065 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.075 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:30:51.075 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.124 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:30:51.124 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:30:51.450 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:30:51.450 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:30:51.461 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:30:51.461 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.468 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:30:51.468 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.520 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:30:51.521 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.530 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:30:51.530 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:30:51.576 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:30:51.576 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:30:51.577 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:30:51.577 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderTest[Oliver, Twist, 01234567890123, Twis@gmail.com, Rishon, qa]
+11:30:51.578 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:30:51.578 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:01.595 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:31:01.596 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:01.596 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Sign Out']
+11:31:01.596 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.606 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+11:31:01.606 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.662 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:31:01.662 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.685 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:31:01.686 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.740 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:01.740 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.751 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:01.752 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.821 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:01.822 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.833 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:01.833 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.864 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:01.864 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.874 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:01.874 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.927 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:01.927 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:01.940 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:01.940 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.021 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:02.022 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.033 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:02.033 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.064 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:02.064 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.075 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:02.076 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.118 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:31:02.120 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.133 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:31:02.134 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.192 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:31:02.192 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.452 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:31:02.452 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.506 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:02.506 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.517 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:02.519 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.576 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:02.576 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.585 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:02.585 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.610 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:02.611 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.618 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:02.618 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.657 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:02.657 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.672 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:02.672 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.732 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:02.732 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.740 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:02.740 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.767 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:02.768 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.776 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:02.776 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.805 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:02.805 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.818 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:02.818 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.881 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:02.881 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.890 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:02.890 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.917 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:02.917 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.925 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:02.926 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.967 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:02.967 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:02.981 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:02.981 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.040 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:03.040 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.048 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:03.048 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.074 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:03.074 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.082 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:03.082 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.130 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:03.131 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.145 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:03.145 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.199 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:03.199 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.208 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:03.208 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.231 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:03.231 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.238 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:03.239 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.270 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:03.271 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.283 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:03.284 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.342 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:03.343 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.351 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:03.352 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.378 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:03.379 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.387 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:03.388 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.414 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:31:03.414 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.425 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:31:03.425 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.479 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:31:03.479 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:03.805 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:31:03.805 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:03.818 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:31:03.818 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.829 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:31:03.829 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.885 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:31:03.885 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.896 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:31:03.896 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:03.948 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:31:03.948 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:31:03.948 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:31:03.950 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Oliver', phone='1234567890'}]
+11:31:03.950 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:31:03.951 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:14.000 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:31:14.000 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:14.000 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Sign Out']
+11:31:14.000 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.010 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+11:31:14.010 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.079 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:31:14.079 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.103 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:31:14.103 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.164 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:14.164 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.175 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:14.175 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.242 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:14.242 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.255 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:14.255 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.293 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:14.293 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.303 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:14.303 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.346 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:14.346 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.358 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:14.358 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.421 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:14.421 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.429 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:14.429 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.460 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:14.460 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.469 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:14.469 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.512 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:31:14.512 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.523 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:31:14.523 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.595 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:31:14.595 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.856 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:31:14.856 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.926 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:14.926 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:14.935 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:14.935 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.004 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:15.004 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.012 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:15.012 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.051 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:15.051 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.062 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:15.062 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.094 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:15.094 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.103 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:15.103 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.158 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:15.160 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.167 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:15.167 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.191 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:15.191 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.200 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:15.200 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.227 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:15.227 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.235 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:15.235 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.284 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:15.284 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.290 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:15.290 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.311 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:15.311 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.319 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:15.319 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.351 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:15.351 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.357 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:15.359 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.410 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:15.410 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.418 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:15.419 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.445 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:15.445 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.453 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:15.453 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.484 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:15.484 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.491 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:15.491 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.544 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:15.544 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.552 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:15.552 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.577 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:15.577 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.585 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:15.585 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.614 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:15.614 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.621 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:15.621 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.675 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:15.675 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.683 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:15.684 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.708 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:15.708 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.717 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:15.718 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.744 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:31:15.744 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.753 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:31:15.753 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:15.801 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:31:15.801 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:16.116 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:31:16.116 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:16.127 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:31:16.127 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:16.136 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:31:16.137 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:16.197 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:31:16.197 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:16.208 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:31:16.208 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:16.258 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:31:16.258 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:31:16.258 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:31:16.259 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Kris', phone='12345678902'}]
+11:31:16.259 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:31:16.259 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:26.274 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:31:26.275 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:26.275 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Sign Out']
+11:31:26.275 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.282 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+11:31:26.282 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.329 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:31:26.330 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.348 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:31:26.348 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.395 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:26.395 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.402 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:26.402 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.449 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:26.450 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.457 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:26.457 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.479 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:26.479 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.485 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:26.485 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.514 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:26.514 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.521 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:26.521 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.566 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:26.566 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.574 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:26.574 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.597 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:26.597 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.604 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:26.604 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.629 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:31:26.629 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.637 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:31:26.637 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.678 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:31:26.678 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.926 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:31:26.926 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.976 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:26.976 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:26.985 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:26.985 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.038 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:27.038 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.045 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:27.045 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.068 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:27.069 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.077 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:27.077 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.105 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:27.105 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.114 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:27.114 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.163 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:27.163 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.170 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:27.170 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.192 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:27.192 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.199 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:27.199 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.222 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:27.222 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.230 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:27.230 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.274 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:27.274 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.282 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:27.282 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.304 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:27.304 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.311 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:27.311 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.339 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:27.341 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.347 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:27.347 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.395 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:27.395 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.402 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:27.402 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.423 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:27.423 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.431 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:27.431 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.458 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:27.458 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.465 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:27.466 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.513 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:27.514 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.520 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:27.522 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.543 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:27.544 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.550 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:27.551 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.576 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:27.576 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.583 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:27.583 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.628 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:27.628 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.635 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:27.635 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.658 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:27.658 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.664 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:27.665 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.687 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:31:27.687 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.694 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:31:27.694 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:27.736 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:31:27.736 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:28.056 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:31:28.056 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:28.106 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:31:28.106 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:28.113 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:31:28.113 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:28.162 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:31:28.162 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:28.169 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:31:28.169 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:28.219 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:31:28.220 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:31:28.220 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:31:28.220 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Alex', phone='12345678901232'}]
+11:31:28.220 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:31:28.220 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:38.253 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:31:38.253 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:38.253 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Sign Out']
+11:31:38.253 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.261 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+11:31:38.261 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.306 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:31:38.306 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.313 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:31:38.314 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.373 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:38.373 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.381 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:38.381 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.431 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:38.431 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.439 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:38.439 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.464 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:38.464 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.472 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:38.472 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.505 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:38.505 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.513 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:38.513 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.566 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:38.566 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.573 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:38.573 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.595 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:38.595 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.603 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:38.603 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.629 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:31:38.629 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.636 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:31:38.636 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.682 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:31:38.682 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.937 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:31:38.937 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:38.991 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:38.991 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.015 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:39.015 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.082 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:39.082 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.091 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:39.091 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.113 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:39.113 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.121 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:39.121 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.147 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:39.147 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.156 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:39.156 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.216 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:39.217 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.226 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:39.226 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.255 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:39.255 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.264 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:39.264 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.297 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:39.297 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.306 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:39.306 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.371 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:39.371 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.381 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:39.381 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.411 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:39.411 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.419 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:39.419 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.451 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:39.452 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.460 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:39.460 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.520 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:39.520 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.530 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:39.530 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.558 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:39.558 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.566 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:39.566 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.596 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:39.596 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.604 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:39.604 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.658 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:39.658 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.666 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:39.666 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.694 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:39.694 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.704 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:39.704 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.731 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:39.732 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.740 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:39.740 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.793 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:39.793 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.801 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:39.802 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.824 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:39.824 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.832 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:39.832 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.857 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:31:39.857 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.864 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:31:39.865 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:39.909 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:31:39.909 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:40.228 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:31:40.228 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:40.276 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:31:40.276 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:40.284 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:31:40.284 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:40.329 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:31:40.329 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:40.336 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:31:40.336 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:40.379 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:31:40.379 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:31:40.379 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:31:40.380 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveFromDataProviderWithCsvFileTest[Contact{name='Olivia', phone='123456789012345'}]
+11:31:40.380 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:31:40.380 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:50.430 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:31:50.431 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:50.431 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Sign Out']
+11:31:50.431 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.441 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+11:31:50.441 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.509 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:31:50.510 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.529 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:31:50.529 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.597 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:50.597 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.607 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:50.607 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.664 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:50.665 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.673 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:50.673 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.701 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:31:50.701 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.708 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:31:50.708 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.746 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:50.746 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.754 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:50.755 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.813 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:50.813 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.822 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:50.823 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.855 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:31:50.855 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.865 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:31:50.865 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.899 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:31:50.899 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.907 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:31:50.907 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:50.967 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:31:50.967 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.220 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:31:51.220 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.283 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:51.283 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.295 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:51.295 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.353 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:51.353 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.362 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:51.362 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.389 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:31:51.390 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.398 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:31:51.398 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.425 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:51.425 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.434 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:51.434 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.501 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:51.501 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.511 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:51.511 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.539 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:31:51.539 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.549 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:31:51.549 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.577 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:51.577 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.586 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:51.586 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.639 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:51.640 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.647 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:51.648 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.672 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:31:51.672 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.680 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:31:51.680 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.713 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:51.713 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.721 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:51.721 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.773 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:51.774 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.781 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:51.781 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.807 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:31:51.807 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.815 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:31:51.815 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.844 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:51.844 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.853 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:51.853 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.902 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:51.902 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.909 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:51.909 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.931 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:31:51.931 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.939 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:31:51.939 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.965 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:51.965 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:51.973 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:51.973 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.020 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:52.020 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.027 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:52.028 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.050 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:31:52.050 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.057 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:31:52.057 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.079 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:31:52.079 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.086 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:31:52.086 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.130 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:31:52.130 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:31:52.444 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:31:52.444 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:31:52.506 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:31:52.506 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.516 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:31:52.516 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.587 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:31:52.587 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.597 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:31:52.597 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:31:52.659 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveFromDataProviderWithCsvFileTest(com.phonebook.models.Contact)[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:31:52.659 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:31:52.659 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+11:31:52.661 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testaddContactPositiveTest[]
+11:31:52.661 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: [href='/login']
+11:31:52.661 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:32:02.725 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:32:02.725 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:32:02.725 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Sign Out']
+11:32:02.725 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:02.733 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Sign Out']
+11:32:02.733 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:02.803 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/login']
+11:32:02.803 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:02.812 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/login']
+11:32:02.812 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:02.880 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:32:02.881 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:02.890 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:32:02.890 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:02.959 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:32:02.959 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:02.968 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:32:02.968 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.001 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: email
+11:32:03.001 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.009 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: email
+11:32:03.009 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.041 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:32:03.042 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.049 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:32:03.049 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.107 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:32:03.107 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.116 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:32:03.117 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.141 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: password
+11:32:03.141 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.148 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: password
+11:32:03.148 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.177 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.name: login
+11:32:03.177 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.186 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.name: login
+11:32:03.187 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.240 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/add']
+11:32:03.240 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.496 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/add']
+11:32:03.496 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.552 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:32:03.553 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.561 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:32:03.561 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.625 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:32:03.625 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.634 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:32:03.634 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.662 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(1)
+11:32:03.664 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.672 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(1)
+11:32:03.672 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.702 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:32:03.702 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.710 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:32:03.710 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.769 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:32:03.769 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.779 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:32:03.779 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.808 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(2)
+11:32:03.808 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.817 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(2)
+11:32:03.817 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.852 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:32:03.852 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.861 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:32:03.862 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.931 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:32:03.931 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.941 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:32:03.941 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.967 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(3)
+11:32:03.967 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:03.977 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(3)
+11:32:03.977 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.010 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:32:04.010 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.019 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:32:04.019 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.075 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:32:04.075 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.083 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:32:04.083 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.106 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(4)
+11:32:04.107 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.114 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(4)
+11:32:04.114 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.143 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:32:04.143 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.151 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:32:04.151 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.202 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:32:04.202 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.210 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:32:04.210 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.233 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(5)
+11:32:04.234 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.241 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(5)
+11:32:04.241 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.266 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:32:04.267 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.274 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:32:04.274 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.324 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:32:04.324 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.332 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:32:04.332 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.353 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: input:nth-child(6)
+11:32:04.354 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.361 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: input:nth-child(6)
+11:32:04.361 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.383 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .add_form__2rsm2 button
+11:32:04.383 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.389 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .add_form__2rsm2 button
+11:32:04.391 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.432 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: h2
+11:32:04.433 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:32:04.749 [Test worker] INFO  com.phonebook.utils.MyListener -- List size6
+11:32:04.749 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:32:04.758 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: .contact-item_card__2SOIM
+11:32:04.758 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.764 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: .contact-item_card__2SOIM
+11:32:04.764 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.812 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.xpath: //button[.='Remove']
+11:32:04.812 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.821 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.xpath: //button[.='Remove']
+11:32:04.821 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:04.866 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: AddContactTests.addContactPositiveTest()[pri:0, instance:com.phonebook.tests.AddContactTests@2f17e30d]
+11:32:04.867 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:32:04.867 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

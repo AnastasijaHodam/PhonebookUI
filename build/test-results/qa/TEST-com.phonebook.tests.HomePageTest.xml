@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.phonebook.tests.HomePageTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-30T09:32:29" hostname="ANASTASIJAHODAM" time="0.022">
+  <properties/>
+  <testcase name="isHomeComponentPresentTest" classname="com.phonebook.tests.HomePageTest" time="0.022"/>
+  <system-out><![CDATA[11:32:19.505 [Test worker] INFO  com.phonebook.tests.TestBase -- Start testisHomeComponentPresentTest[]
+11:32:19.506 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: div:nth-child(2)>div>div>h1
+11:32:19.506 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:32:29.513 [Test worker] INFO  com.phonebook.utils.MyListener -- List size0
+11:32:29.514 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:32:29.514 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator will findBy.cssSelector: [href='/home']
+11:32:29.514 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:29.528 [Test worker] INFO  com.phonebook.utils.MyListener -- The locator is By.cssSelector: [href='/home']
+11:32:29.528 [Test worker] INFO  com.phonebook.utils.MyListener -- ********************************
+11:32:29.615 [Test worker] INFO  com.phonebook.utils.MyListener -- Before find elements By.cssSelector: div:nth-child(2)>div>div>h1
+11:32:29.615 [Test worker] INFO  com.phonebook.utils.MyListener -- **********************************
+11:32:29.637 [Test worker] INFO  com.phonebook.utils.MyListener -- List size1
+11:32:29.637 [Test worker] INFO  com.phonebook.utils.MyListener -- *****************************
+11:32:29.638 [Test worker] INFO  com.phonebook.tests.TestBase -- PASSED: HomePageTest.isHomeComponentPresentTest()[pri:0, instance:com.phonebook.tests.HomePageTest@37efd131]
+11:32:29.638 [Test worker] INFO  com.phonebook.tests.TestBase -- Stop test
+11:32:29.638 [Test worker] INFO  com.phonebook.tests.TestBase -- ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
